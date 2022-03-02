@@ -1,0 +1,13 @@
+raining1 = str(input('is it raining?'))
+
+if raining1 == 'no':
+    print('have a good day')
+
+else:
+    raining2 = str(input('is it windy?'))
+
+if raining2 == 'yes':
+    print('it is too windy for an umbrella')
+
+else:
+    print('use an umbrella!')
