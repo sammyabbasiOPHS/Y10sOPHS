@@ -1,0 +1,6 @@
+FirstName = input('what is your first name >>>')
+LastName = input('what is your last name >>>')
+space= (' ')
+print(FirstName + space +  LastName)
+
+print(len(FirstName + space + LastName))
