@@ -1,0 +1,27 @@
+for singleletter in 'paris':
+    print(singleletter)
+
+name = str(input("Input your name>>>"))
+for i in range(3):
+  print(name)
+
+for counting in range(10):
+    print(counting)
+
+for holdingNumbersFromRange in range(3):
+  print("This for loop will display", holdingNumbersFromRange)
+
+for holdingNumbersFromRange in range(5, 10):
+  print("This for loop will display", holdingNumbersFromRange)
+
+for holdingNumbersFromRange in range(5, 10, 2):
+  print("This for loop will display", holdingNumbersFromRange)
+
+animals=['cat','dog','horse','donkey','rabbit']
+for nextAnimal in animals:
+    print('the animals is a',nextanimal)
+
+mylist=['cat','dog','donkey','rabbit','canary']
+for next in mylist
+if next[0]=='c':
+    print(next)
