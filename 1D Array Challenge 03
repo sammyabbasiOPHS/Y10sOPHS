@@ -1,0 +1,14 @@
+names = []
+names.append(input('Enter a name >>>'))
+names.append(input('Enter a name >>>'))
+names.append(input('Enter a name >>>'))
+A = True
+while A == True:
+    people = str(input('enter any other names or type no')) 
+    if people == 'no':
+        print(names)
+        A = False
+
+    else:
+        names.append(people)
+        print(names)
