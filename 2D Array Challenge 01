@@ -1,0 +1,6 @@
+MySpaceCompany = []
+
+MySpaceCompany.append(input("Enter vehicle 1 >>>"))
+MySpaceCompany.append(input("Enter vehicle 2 >>>"))
+MySpaceCompany.append(input("Enter vehicle 3 >>>"))
+print(MySpaceCompany)
