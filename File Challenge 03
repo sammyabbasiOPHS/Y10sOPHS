@@ -1,0 +1,3 @@
+NotePad = open("names.txt", "r")
+contents = NotePad.read()
+print(contents)
