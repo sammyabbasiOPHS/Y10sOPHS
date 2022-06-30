@@ -1,0 +1,5 @@
+NotePad = open("numbers.txt", "w")
+UserInput = input("enter 5 numbers >>>")
+NotePad.write(UserInput)
+NotePad.close()
+print("/nGo and open numbers.txt!")
