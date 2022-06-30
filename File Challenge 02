@@ -1,0 +1,5 @@
+NotePad = open("names.txt", "w")
+UserInput = ('Lewis\n Carl\n Davidson\n Hamilton\n Latifi\n')
+NotePad.write(UserInput)
+NotePad.close()
+print("/nGo and open numbers.txt!")
