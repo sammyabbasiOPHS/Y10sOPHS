@@ -1,0 +1,6 @@
+def  FIFA47():
+    print('Tournament Mode')
+    print('Career Mode')
+    print('Online Seasons')
+
+FIFA47()
