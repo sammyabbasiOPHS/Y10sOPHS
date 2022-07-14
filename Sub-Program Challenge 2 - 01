@@ -1,0 +1,9 @@
+name = input('enter your name >>>') 
+
+def HappyBirthday():
+    print('Happy birthday to you')
+    print('Happy birthday to you')
+    print('Happy birthday to',name ,)
+    print('Happy birthday to you!!')
+    
+HappyBirthday()
