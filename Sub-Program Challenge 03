@@ -1,0 +1,44 @@
+def player1Game():
+    print('Think big  chosen')
+
+def player2Game():
+    print('Think bigger chosen')
+    
+def online():
+    print('Winning chosen')
+
+def adventure():
+    print('winner chosen')
+
+def menu():
+    print('press 1 for think big')
+    print('press 2 for think bigger')
+    print('press 3 for winning')
+    print('press 4 for to winning')
+    print('press 5 to exit')
+
+    UserInput = int(input('Enter 1, 2, 3, 4 or 5 >>>'))
+
+    if UserInput == 1:
+        player1Game()
+    elif UserInput == 2:
+        player2Game()
+    elif UserInput == 3:
+        online()
+    elif UserInput == 4:
+        adventure()
+    elif UserInput == 5:
+        print('')
+        print('Exiting... Bye Bye')
+     else:
+        print('')
+        print('')  
+        print('Input Invalid... Try Again')
+        menu()
+
+
+
+
+
+
+menu()
